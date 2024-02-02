@@ -1,0 +1,19 @@
+1- what is the name of our project ?
+
+- PokeWiki
+
+2- what do we need for our project ?
+
+- html
+
+  - html tree
+
+- css
+- hover effect
+- animations
+- effects in general
+
+- javascript
+  -api
+
+3-
