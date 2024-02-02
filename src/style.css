@@ -6,7 +6,15 @@ body {
   margin: 0;
   background-color: rgb(145, 126, 126);
   text-align: center;
+    align-items: center; 
+ 
+}
+
+section {
   justify-content: center;
+   margin: auto;
+  height: auto;
+  background-color: rgb(145, 126, 126);
 }
 
 h1:hover {
