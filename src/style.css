@@ -21,4 +21,20 @@ h1:hover {
   margin-top: 20px;
   font-size: 20px;
   color: rgb(122, 70, 70)
+} 
+ul {
+  list-style-type: none;
+
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(145, 126, 126);
 }
+
+.containers {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(145, 126, 126);
+  position: relative;
+}/* align-items: center; */
