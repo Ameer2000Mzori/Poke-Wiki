@@ -4,9 +4,13 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-  t
+  background-color: rgb(145, 126, 126);
+  text-align: center;
+  justify-content: center;
 }
 
-h1{
-  
+h1:hover {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(122, 70, 70)
 }
