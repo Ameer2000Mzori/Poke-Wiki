@@ -23,7 +23,7 @@ body {
 }
 
 .containers-items,
-.favourite-Btn {
+#favourite-Btn {
   background-color: #6f90b1;
   color: #322f2f;
   padding: 10px;
@@ -34,12 +34,12 @@ body {
   transition: all 100ms ease-in-out;
 }
 
-.favourite-Btn {
+#favourite-Btn {
   transition: all 50ms ease-in-out;
   padding: 10px 30px;
 }
 
-.favourite-Btn:active {
+#favourite-Btn:active {
   padding: 9px 25px;
 }
 
