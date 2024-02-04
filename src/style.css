@@ -30,15 +30,17 @@ body {
   border-radius: 80px;
   cursor: pointer;
   border: 2px solid #2d2f2f;
+  transition: all 100ms ease-in-out;
 }
 .containers-items:hover {
   background-color: #6fb193;
-  color: #322f2f;
   padding: 13px;
-  justify-content: space-between;
-  border-radius: 80px;
-  cursor: pointer;
-  border: 2px solid #2d2f2f;
+  /* transform: scale(1.1); */
+}
+
+.containers-items:active {
+  background-color: #7c7e7d;
+  padding: 9px;
 }
 
 #number-input {
@@ -59,14 +61,11 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  border: 2px solid #3b3e3e;
   background-color: #6fb193;
   color: #120f0f;
-  width: 100px;
   padding: 9px;
   justify-content: space-between;
   border-radius: 80px;
-  cursor: pointer;
 }
 
 h5 {
