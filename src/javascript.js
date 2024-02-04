@@ -5,10 +5,9 @@ const favouriteBtn = document.getElementById("favourite-Btn");
 const containersitems = document.querySelectorAll(".containers-items");
 
 // this si console.log(favouriteBtn);
-// console.log(headerTitle);
+console.log(headerTitle);
 console.log(favouriteBtn);
-favouriteBtn.textContent = "sardar";
-// console.log(containersitems);
+console.log(containersitems);
 
 // for what reason im console loging
 
@@ -23,6 +22,9 @@ const styleTitle = () => {
 favouriteBtn.addEventListener("click", styleTitle);
 
 // for each loop
+containersitems.forEach((button) => {
+  button.addEventListener("click", styleTitle);
+});
 
 // why 0 not 1
 // array always begins with  0
