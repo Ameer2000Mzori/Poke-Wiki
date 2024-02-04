@@ -22,8 +22,10 @@ const styleTitle = () => {
 favouriteBtn.addEventListener("click", styleTitle);
 
 // for each loop
-containersitems.forEach((button) => {
-  button.addEventListener("click", styleTitle);
+containersitems.forEach((buttons) => {
+  buttons.addEventListener("click", (e) => {
+    console.log(e.target.textContent);
+  });
 });
 
 // why 0 not 1
