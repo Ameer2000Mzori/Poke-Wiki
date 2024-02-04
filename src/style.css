@@ -22,7 +22,8 @@ body {
   justify-content: space-around;
 }
 
-.containers-items {
+.containers-items,
+.favourite-Btn {
   background-color: #6f90b1;
   color: #322f2f;
   padding: 10px;
@@ -32,6 +33,16 @@ body {
   border: 2px solid #2d2f2f;
   transition: all 100ms ease-in-out;
 }
+
+.favourite-Btn {
+  transition: all 50ms ease-in-out;
+  padding: 10px 30px;
+}
+
+.favourite-Btn:active {
+  padding: 9px 25px;
+}
+
 .containers-items:hover {
   background-color: #6fb193;
   padding: 13px;
