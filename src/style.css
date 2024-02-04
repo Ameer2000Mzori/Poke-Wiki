@@ -46,7 +46,6 @@ body {
 .containers-items:hover {
   background-color: #6fb193;
   padding: 13px;
-  /* transform: scale(1.1); */
 }
 
 .containers-items:active {
@@ -57,26 +56,7 @@ body {
 #number-input {
   margin-top: 10px;
   padding: 5px;
-}
-
-input[type="submit"] {
-  font-size: 15px;
-  border: 2px solid #3b3e3e;
-  background-color: #6f90b1;
-  color: #0b0a0a;
-  padding: 6px 3px;
-  width: 100px;
-  border-radius: 40px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-input[type="submit"]:hover {
-  background-color: #6fb193;
-  color: #120f0f;
-  padding: 9px;
-  justify-content: space-between;
-  border-radius: 80px;
+  width: 150px;
 }
 
 h5 {
