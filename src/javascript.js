@@ -1,19 +1,10 @@
-
-
 // how do we select elements in javascript ?
 
 const headerTitle = document.getElementsByClassName("header-Title")[0];
 const favouriteBtn = document.getElementById("favourite-Btn");
 const containersitems = document.querySelectorAll(".containers-items");
 
-
-
-    favouriteBtn.addEventListener("click", () => {
-        headerTitle.style.backgroundColor = "red";
-    })
-})
-
- console.log(favouriteBtn);
+// this si console.log(favouriteBtn);
 console.log(headerTitle);
 console.log(favouriteBtn);
 console.log(containersitems);
@@ -23,8 +14,8 @@ console.log(containersitems);
 // our style title function
 
 const styleTitle = () => {
-    favouriteBtn.textContent = "Hello World";
-  favouriteBtn.style.backgroundColor = "red";
+  headerTitle.textContent = "Hello World";
+  headerTitle.style.backgroundColor = "red";
 };
 
 // with buttons we can do event handlers lisnters
@@ -37,7 +28,11 @@ containersitems.forEach((buttons) => {
   });
 });
 
+// why 0 not 1
+// array always begins with  0
 
+// anonmoes function
+// () => {}
 
 // es6 arrow function
 
