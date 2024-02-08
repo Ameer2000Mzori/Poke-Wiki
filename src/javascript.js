@@ -4,5 +4,9 @@
 // selecte element :
 const numberinput = document.getElementById("number-input");
 const favouriteBtn = document.getElementById("favourite-Btn");
+// const header1 = document.getElementsByClassName("header")[0];
 
-// your function:
+favouriteBtn.addEventListener("click", () => {
+
+  console.log(`When you click no favourite it will count numbers of clicks ${numberInput}`);
+})
