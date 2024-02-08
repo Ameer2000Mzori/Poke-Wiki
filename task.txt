@@ -1,7 +1,2 @@
-1- style the header and all buttons and add effects and add input - DONE 
-
-2- when any of the buttosn is clicked i want to see the background color 
-of favorite button is changed - NOT DONE 
-
-3- when a value is intered in the input, then i want after clicking the favorite button
-i want the title from Pokedex to change to the value was in side of the input - NOT DONE
+// if the favo button is clicked, i want to see the value in console.log of the input
+// so if clicked favo => anything in input value to be shown in console log
