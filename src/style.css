@@ -76,3 +76,52 @@ h5 {
     align-items: center;
   }
 }
+
+/*  card wrap styling */
+
+.card {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-Wrap {
+  width: 60%;
+  height: 90%;
+}
+
+.cards {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.card-Img {
+  height: 220px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-ID {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #3c4041;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
