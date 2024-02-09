@@ -1,4 +1,8 @@
-// => i want to see hover effect on the cards, when hovered i want it to be bigger 
+=> i want to see hover effect on the cards.
+
+1-  when hovered i want it to be bigger 
+2-  i want to have a duration of 100ms
+3- to change background color to any color you want
 
 
 
