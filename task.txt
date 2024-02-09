@@ -1,2 +1,4 @@
-// if the favo button is clicked, i want to see the value in console.log of the input
-// so if clicked favo => anything in input value to be shown in console log
+// => i want to see hover effect on the cards, when hovered i want it to be bigger 
+
+
+
