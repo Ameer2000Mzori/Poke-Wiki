@@ -133,3 +133,137 @@ console.log(sorry we cant sent less then 1EU);
  comment = i like the house 
 
 */
+
+// // =>  conditionals
+
+// let on = true;
+// let userName = "Sardar";
+// // if else lader
+// if (on) {
+//   console.log("you are on", on);
+// } else if (!on) {
+//   console.log("you are off", on);
+// } else {
+//   console.log("is not a boolean");
+// }
+
+// //  Conditional (ternary) operator
+// userName === "ameer"
+//   ? console.log("name is Ameer")
+//   : userName === "john"
+//   ? console.log("name is John")
+//   : userName === "Sardar"
+//   ? console.log("name is Sardar")
+//   : console.log("name is not found");
+
+//  => the code you make in your job
+//  most likely will come back to you later on  <=
+
+//  switch condition
+
+// let dayNow = "a";
+// let day;
+// switch (dayNow) {
+//   case "Sunday":
+//     day = "Sunday";
+//     console.log("the day is", day);
+//     break;
+//   case "Monday":
+//     day = "Monday";
+//     console.log("the day is", day);
+//     break;
+//   case "Tuesday":
+//     day = "Tuesday";
+//     console.log("the day is", day);
+//     break;
+//   case "Wednesday":
+//     day = "Wednesday";
+//     console.log("the day is", day);
+//     break;
+//   case "Thursday":
+//     day = "Thursday";
+//     console.log("the day is", day);
+//     break;
+//   //  =>  case "Friday":
+//   case "Friday":
+//     day = "Friday";
+//     console.log("the day is", day);
+//     break;
+//   case "Saturday":
+//     day = "Saturday";
+//     console.log("the day is", day);
+//   default:
+//     console.log("there is no day like that");
+// }
+
+//  === equal  also with strings
+// !==  not equal
+//  == equal
+
+//  =>  loops
+
+// let weather = "%51";
+// let city = "Dohok";
+// let going = false;
+
+//// removed all non-digit characters
+// weather = weather.replace(/\D/g, "");
+// // we replace all everything from string to number
+// weather = parseInt(weather);
+// console.log(weather);
+
+// weather > 50 ? console.log("we will not go") : console.log("we will  go");
+
+//  array and object
+
+// this is arry
+// let arry = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arry);
+
+// console.log(arry); and check the prototype
+
+// this is how at works
+// console.log(arry.at(2));
+
+//=> this is how every works
+// every  => everything inside the array should be 7
+// else it will return false
+// let trueOrFalse = arry.every((item) => item === 7);
+// console.log(trueOrFalse);
+
+//=> this is how some works
+// some works as following your array if it has
+// only one element 7 then it will return true
+// else it will return false
+// let trueOrFalse = arry.some((item) => item === 7);
+// console.log(trueOrFalse);
+
+//=> this is how find works
+// find works as following your array if it has the elment
+// and it will store it fro you in new variable and you can use
+// it
+
+// let foundElement = arry.find((item) => item === 12);
+// if (foundElement) {
+//   console.log("we found it", foundElement);
+// } else {
+//   console.log("we did not find it");
+// }
+
+//=> this is how filter works
+//
+//
+
+// let filterArry = [1, 2, 3, 4, 5, 6, 7, 12];
+// console.log("our array before filtering", filterArry);
+
+// //  !== this means does not equal
+// //  == / === this means equals
+
+// filterArry = filterArry.filter((item) => item === 12);
+
+// if (filterArry) {
+//   console.log("we found it", filterArry);
+// } else {
+//   console.log("we did not find it");
+// }
