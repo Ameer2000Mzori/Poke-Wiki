@@ -267,3 +267,19 @@ console.log(sorry we cant sent less then 1EU);
 // } else {
 //   console.log("we did not find it");
 // }
+
+// ==> TASK ONE
+// => explain to me how indexOf works
+
+// use indexOf to show me what is the index of 2 here
+
+let arry = [1, 2, 3];
+
+// what is the index of 2 ? :
+
+// ==> TASK TWO
+// => explain to me how forEach works
+
+// i want you to understand how forEach works
+// also i want you to console log each element
+// inside of arry

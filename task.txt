@@ -1,8 +1,15 @@
-=> i want to see hover effect on the cards.
+==> TASK ONE
+=> explain to me how indexOf works 
 
-1-  when hovered i want it to be bigger 
-2-  i want to have a duration of 100ms
-3- to change background color to any color you want
+use indexOf to show me what is the index of 2 here 
 
+let arry = [1, 2, 3];
 
+what is the index of 2 ? : 
 
+==> TASK TWO
+=> explain to me how forEach works 
+
+i want you to understand how forEach works
+also i want you to console log each element 
+inside of arry
