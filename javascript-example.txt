@@ -239,7 +239,7 @@ console.log(sorry we cant sent less then 1EU);
 // console.log(trueOrFalse);
 
 //=> this is how find works
-// find works as following your array if it has the elment
+// find works as following your array if it has the element
 // and it will store it fro you in new variable and you can use
 // it
 
@@ -267,3 +267,16 @@ console.log(sorry we cant sent less then 1EU);
 // } else {
 //   console.log("we did not find it");
 // }
+
+
+
+//1=> this is how filter works//
+/*
+
+*/
+
+const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter((word) => word.length > 6);
+
+console.log(result);

@@ -268,18 +268,26 @@ console.log(sorry we cant sent less then 1EU);
 //   console.log("we did not find it");
 // }
 
+// filter is  filtered all the way through the array before filtering again
+
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+// const result = words.filter((word) => word.length > 7);
+
+// console.log(result);
+
 // ==> TASK ONE
-// => explain to me how indexOf works
-
-// use indexOf to show me what is the index of 2 here
-
+// => explain to me how indexOf works 
+// he indexOf() method returns the first index (position) of a specified value.
 let arry = [1, 2, 3];
+console.log(arry[1])
 
-// what is the index of 2 ? :
+
+// what is the index of 2 ? : 
 
 // ==> TASK TWO
-// => explain to me how forEach works
+// => explain to me how forEach works 
 
 // i want you to understand how forEach works
-// also i want you to console log each element
+// also i want you to console log each element 
 // inside of arry
