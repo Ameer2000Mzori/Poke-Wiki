@@ -284,10 +284,16 @@ console.log(arry[1])
 
 
 // what is the index of 2 ? : 
+//it is the index of (1)
 
 // ==> TASK TWO
 // => explain to me how forEach works 
-
+let arry1 = [1, 2, 3, 4 , 5, 6, 7, 8];
+arry1.forEach(( arr,element, index) => {
+    console.log("arr:", arr, "Index:", index, "element:", element);
+})
 // i want you to understand how forEach works
 // also i want you to console log each element 
 // inside of arry
+// The forEach() method of Array instances executes 
+// a provided function once for each array element.
