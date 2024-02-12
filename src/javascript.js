@@ -276,28 +276,107 @@ console.log(sorry we cant sent less then 1EU);
 
 // console.log(result);
 
-// =================================================================
+//=> arry and object
 
-// ==> TASK ONE
+// arry
+let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// this is object
+let obj = {
+  1: "one",
+  2: "two",
+  3: "three",
+  4: "four",
+  5: "five",
+  6: "six",
+  7: "seven",
+  8: "eight",
+  9: "nine",
+  10: "ten",
+  11: "eleven",
+};
 
-// => explain to me how indexOf works
-// he indexOf() method returns the first index (position) of a specified value.
-let arry = [1, 2, 3];
-console.log(arry.indexOf(2));
+// => object of arrys
+let objArry = {
+  name: ["Ameer", "sardar", "ahmed"],
+  AGE: [32, 35, 31],
+};
 
-//look at this Zero-based index at which to start and  end the iteratio of the
-// what is the index of 2 ? :
-//it is the index of (1)
+// => how to get data from arry and objects
 
-// ==> TASK TWO
+// arry.forEach((item) => {
+//   console.log(item);
+// });
 
-// => explain to me how forEach works
-let arry1 = [1, 2, 3, 4, 5, 6, 7, 8];
-arry1.forEach((element, index, arry) => {
-  console.log("arr:", arry, "Index:", index, "element:", element);
+// Object.keys(obj).forEach((i) => {
+//   console.log(obj[i]);
+// });
+
+// => arry of objects
+let arryObj = [
+  {
+    name: "Ameer",
+    age: 32,
+  },
+  {
+    name: "sardar",
+    age: 35,
+  },
+  {
+    name: "ahmed",
+    age: 31,
+  },
+];
+
+arryObj.forEach((item) => {
+  console.log(" whole object", item);
+  //    if the name is Ameer we want to change it
+  if (item.name === "Ameer") {
+    item.name = "new X name";
+  }
+  console.log(" name of object", item.name);
+  console.log(" age of object", item.age);
 });
-// i want you to understand how forEach works
-// also i want you to console log each element
-// inside of arry
-// The forEach() method of Array instances executes
-// a provided function once for each array element.
+
+// selecting element
+const headerTitle = document.getElementsByClassName("header-Title")[0];
+headerTitle.textContent = "hello";
+headerTitle.style.backgroundColor = "white";
+headerTitle.style.color = "red";
+
+//  => creating elements
+//  we create element like in html =>
+// <div></div>
+//
+//
+//
+//
+//
+//
+//  => lets create card
+const cardsEl = document.createElement("div");
+cardsEl.classList = "cards";
+cardsEl.style.backgroundColor = "blue";
+
+const cardImg = document.createElement("img");
+cardImg.classList = "card-Img";
+cardImg.src = "./assets/7.png";
+
+const cardID = document.createElement("p");
+cardID.classList = "card-ID";
+cardID.textContent = "##2";
+
+const cardTitle = document.createElement("h1");
+cardTitle.id = "card-Title";
+cardTitle.textContent = "dog";
+
+const cardType = document.createElement("h4");
+cardType.classList = "card-Type";
+cardType.textContent = "new fire";
+
+//  => append
+cardsEl.append(cardID, cardImg, cardTitle, cardType);
+const cardWrap = document.getElementsByClassName("card-Wrap")[0];
+// this will append the element in the first place
+// cardWrap.prepend(divEl);
+// this will append the element in the last place
+cardWrap.append(cardsEl);
