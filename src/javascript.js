@@ -276,24 +276,28 @@ console.log(sorry we cant sent less then 1EU);
 
 // console.log(result);
 
+// =================================================================
+
 // ==> TASK ONE
-// => explain to me how indexOf works 
+
+// => explain to me how indexOf works
 // he indexOf() method returns the first index (position) of a specified value.
 let arry = [1, 2, 3];
 console.log(arry.indexOf(2));
-//look at this Zero-based index at which to start and  end the iteratio of the
 
-// what is the index of 2 ? : 
+//look at this Zero-based index at which to start and  end the iteratio of the
+// what is the index of 2 ? :
 //it is the index of (1)
 
 // ==> TASK TWO
-// => explain to me how forEach works 
-let arry1 = [1, 2, 3, 4 , 5, 6, 7, 8];
-arry1.forEach(( arr,element, index) => {
-    console.log("arr:", arr, "Index:", index, "element:", element);
-})
+
+// => explain to me how forEach works
+let arry1 = [1, 2, 3, 4, 5, 6, 7, 8];
+arry1.forEach((element, index, arry) => {
+  console.log("arr:", arry, "Index:", index, "element:", element);
+});
 // i want you to understand how forEach works
-// also i want you to console log each element 
+// also i want you to console log each element
 // inside of arry
-// The forEach() method of Array instances executes 
+// The forEach() method of Array instances executes
 // a provided function once for each array element.
