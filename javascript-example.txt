@@ -270,13 +270,3 @@ console.log(sorry we cant sent less then 1EU);
 
 
 
-//1=> this is how filter works//
-/*
-
-*/
-
-const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
-
-const result = words.filter((word) => word.length > 6);
-
-console.log(result);

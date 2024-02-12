@@ -280,8 +280,7 @@ console.log(sorry we cant sent less then 1EU);
 // => explain to me how indexOf works 
 // he indexOf() method returns the first index (position) of a specified value.
 let arry = [1, 2, 3];
-console.log(arry[1])
-
+console.log(arry.indexOf(2));
 
 // what is the index of 2 ? : 
 //it is the index of (1)
