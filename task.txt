@@ -1,15 +1,35 @@
-==> TASK ONE
-=> explain to me how indexOf works 
+// =TASKS=
 
-use indexOf to show me what is the index of 2 here 
-
-let arry = [1, 2, 3];
-
-what is the index of 2 ? : 
-
-==> TASK TWO
-=> explain to me how forEach works 
-
-i want you to understand how forEach works
-also i want you to console log each element 
-inside of arry
+// ARRY DATA
+const arryOBjects = [
+  {
+    id: 2,
+    title: "anything-2",
+    type: "anything-2",
+  },
+  {
+    id: 3,
+    title: "anything-3",
+    type: "anything-3",
+  },
+  {
+    id: 4,
+    title: "anything-4",
+    type: "anything-4",
+  },
+  {
+    id: 5,
+    title: "anything-5",
+    type: "anything-5",
+  },
+  {
+    id: 6,
+    title: "anything-6",
+    type: "anything-6",
+  },
+];
+// => TASK
+//-=> create 5 cards dynamically using forEach and append them to the card-wrap
+//-=> give each element its classlist
+//-=> for  id 3 background color to be red
+//-=> for id 4 i want the title to be sardar

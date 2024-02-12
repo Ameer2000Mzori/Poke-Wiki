@@ -278,70 +278,70 @@ console.log(sorry we cant sent less then 1EU);
 
 //=> arry and object
 
-// arry
-let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-// this is object
-let obj = {
-  1: "one",
-  2: "two",
-  3: "three",
-  4: "four",
-  5: "five",
-  6: "six",
-  7: "seven",
-  8: "eight",
-  9: "nine",
-  10: "ten",
-  11: "eleven",
-};
+// // arry
+// let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// // this is object
+// let obj = {
+//   1: "one",
+//   2: "two",
+//   3: "three",
+//   4: "four",
+//   5: "five",
+//   6: "six",
+//   7: "seven",
+//   8: "eight",
+//   9: "nine",
+//   10: "ten",
+//   11: "eleven",
+// };
 
-// => object of arrys
-let objArry = {
-  name: ["Ameer", "sardar", "ahmed"],
-  AGE: [32, 35, 31],
-};
+// // => object of arrys
+// let objArry = {
+//   name: ["Ameer", "sardar", "ahmed"],
+//   AGE: [32, 35, 31],
+// };
 
-// => how to get data from arry and objects
+// // => how to get data from arry and objects
 
-// arry.forEach((item) => {
-//   console.log(item);
+// // arry.forEach((item) => {
+// //   console.log(item);
+// // });
+
+// // Object.keys(obj).forEach((i) => {
+// //   console.log(obj[i]);
+// // });
+
+// // => arry of objects
+// let arryObj = [
+//   {
+//     name: "Ameer",
+//     age: 32,
+//   },
+//   {
+//     name: "sardar",
+//     age: 35,
+//   },
+//   {
+//     name: "ahmed",
+//     age: 31,
+//   },
+// ];
+
+// arryObj.forEach((item) => {
+//   console.log(" whole object", item);
+//   //    if the name is Ameer we want to change it
+//   if (item.name === "Ameer") {
+//     item.name = "new X name";
+//   }
+//   console.log(" name of object", item.name);
+//   console.log(" age of object", item.age);
 // });
 
-// Object.keys(obj).forEach((i) => {
-//   console.log(obj[i]);
-// });
-
-// => arry of objects
-let arryObj = [
-  {
-    name: "Ameer",
-    age: 32,
-  },
-  {
-    name: "sardar",
-    age: 35,
-  },
-  {
-    name: "ahmed",
-    age: 31,
-  },
-];
-
-arryObj.forEach((item) => {
-  console.log(" whole object", item);
-  //    if the name is Ameer we want to change it
-  if (item.name === "Ameer") {
-    item.name = "new X name";
-  }
-  console.log(" name of object", item.name);
-  console.log(" age of object", item.age);
-});
-
-// selecting element
-const headerTitle = document.getElementsByClassName("header-Title")[0];
-headerTitle.textContent = "hello";
-headerTitle.style.backgroundColor = "white";
-headerTitle.style.color = "red";
+// // selecting element
+// const headerTitle = document.getElementsByClassName("header-Title")[0];
+// headerTitle.textContent = "hello";
+// headerTitle.style.backgroundColor = "white";
+// headerTitle.style.color = "red";
 
 //  => creating elements
 //  we create element like in html =>
@@ -352,31 +352,67 @@ headerTitle.style.color = "red";
 //
 //
 //
-//  => lets create card
-const cardsEl = document.createElement("div");
-cardsEl.classList = "cards";
-cardsEl.style.backgroundColor = "blue";
+// //  => lets create card
+// const cardsEl = document.createElement("div");
+// cardsEl.classList = "cards";
+// cardsEl.style.backgroundColor = "blue";
 
-const cardImg = document.createElement("img");
-cardImg.classList = "card-Img";
-cardImg.src = "./assets/7.png";
+// const cardImg = document.createElement("img");
+// cardImg.classList = "card-Img";
+// cardImg.src = "./assets/7.png";
 
-const cardID = document.createElement("p");
-cardID.classList = "card-ID";
-cardID.textContent = "##2";
+// const cardID = document.createElement("p");
+// cardID.classList = "card-ID";
+// cardID.textContent = "##2";
 
-const cardTitle = document.createElement("h1");
-cardTitle.id = "card-Title";
-cardTitle.textContent = "dog";
+// const cardTitle = document.createElement("h1");
+// cardTitle.id = "card-Title";
+// cardTitle.textContent = "dog";
 
-const cardType = document.createElement("h4");
-cardType.classList = "card-Type";
-cardType.textContent = "new fire";
+// const cardType = document.createElement("h4");
+// cardType.classList = "card-Type";
+// cardType.textContent = "new fire";
 
-//  => append
-cardsEl.append(cardID, cardImg, cardTitle, cardType);
-const cardWrap = document.getElementsByClassName("card-Wrap")[0];
-// this will append the element in the first place
-// cardWrap.prepend(divEl);
-// this will append the element in the last place
-cardWrap.append(cardsEl);
+// //  => append
+// cardsEl.append(cardID, cardImg, cardTitle, cardType);
+// const cardWrap = document.getElementsByClassName("card-Wrap")[0];
+// // this will append the element in the first place
+// // cardWrap.prepend(divEl);
+// // this will append the element in the last place
+// cardWrap.append(cardsEl);
+
+// =TASKS=
+
+// ARRY DATA
+const arryOBjects = [
+  {
+    id: 2,
+    title: "anything-2",
+    type: "anything-2",
+  },
+  {
+    id: 3,
+    title: "anything-3",
+    type: "anything-3",
+  },
+  {
+    id: 4,
+    title: "anything-4",
+    type: "anything-4",
+  },
+  {
+    id: 5,
+    title: "anything-5",
+    type: "anything-5",
+  },
+  {
+    id: 6,
+    title: "anything-6",
+    type: "anything-6",
+  },
+];
+// => TASK
+//-=> create 5 cards dynamically using forEach and append them to the card-wrap
+//-=> give each element its classlist
+//-=> for  id 3 background color to be red
+//-=> for id 4 i want the title to be sardar
