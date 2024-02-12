@@ -281,6 +281,7 @@ console.log(sorry we cant sent less then 1EU);
 // he indexOf() method returns the first index (position) of a specified value.
 let arry = [1, 2, 3];
 console.log(arry.indexOf(2));
+//look at this Zero-based index at which to start and  end the iteration
 
 // what is the index of 2 ? : 
 //it is the index of (1)
