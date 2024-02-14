@@ -411,6 +411,25 @@ const arryOBjects = [
     type: "anything-6",
   },
 ];
+
+const headerWrap = document.querySelector(".card-wrap");
+
+arryOBjects.forEach((item) => {
+  const cardEl = document.createElement("div");
+  cardEl.classList = "card";
+  cardEl.style.backgroundColor = "blue";
+
+  // Create and append the image element to the card element
+  const cardImg = document.createElement("img");
+  cardImg.classList = "card-img"; // Corrected class name
+  cardEl.appendChild(cardImg); // Append image to card element
+
+  // Append the card element to the headerWrap container
+  headerWrap.appendChild(cardEl);
+});
+
+
+
 // => TASK
 //-=> create 5 cards dynamically using forEach and append them to the card-wrap
 //-=> give each element its classlist
