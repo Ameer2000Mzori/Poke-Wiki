@@ -416,5 +416,3 @@ const arryOBjects = [
 //-=> give each element its classlist
 //-=> for  id 3 background color to be red
 //-=> for id 4 i want the title to be sardar
-
-
