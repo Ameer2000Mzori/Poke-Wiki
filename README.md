@@ -55,7 +55,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]([https://ameer2000mzori.github.io/Poke-Wiki/src/])
+- [Live Demo Link](https://ameer2000mzori.github.io/Poke-Wiki/src/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
