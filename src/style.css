@@ -1,7 +1,138 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3498db;
+}
+
+.header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border: solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.containers {
+  list-style-type: none;
+  padding: 0;
+  border-color: 20px solid #1b2021;
+  justify-content: space-around;
+}
+
+.containers-items,
+#favourite-Btn {
+  background-color: #6f90b1;
+  color: #322f2f;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 80px;
+  cursor: pointer;
+  border: 2px solid #2d2f2f;
+  transition: all 100ms ease-in-out;
+}
+
+#favourite-Btn {
+  transition: all 50ms ease-in-out;
+  padding: 10px 30px;
+}
+
+#favourite-Btn:active {
+  padding: 9px 25px;
+}
+
+.containers-items:hover {
+  background-color: #6fb193;
+  padding: 13px;
+}
+
+.containers-items:active {
+  background-color: #7c7e7d;
+  padding: 9px;
+}
+
+#number-input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+h5 {
+  color: #262a2a;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .containers {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*  card wrap styling */
+
+.card {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-Wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 60%;
+  height: 90%;
+}
+
+.cards {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  transition: transform 0.1s ease;
+}
+
+.card-Img {
+  height: 220px;
   padding: 0;
   margin: 0;
+}
+
+.card-ID {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #3c4041;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.cards:hover {
+  background-color: #bdbd46;
+  transition: all 100ms ease-in-out;
+  transform: scale(1.1);
 }
